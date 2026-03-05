@@ -22,7 +22,7 @@ bot = telebot.TeleBot(TELEGRAM_TOKEN, threaded=False)
 print("🔄 Загрузка модели нейросети...")
 n_classes = 19
 net = BiSeNet(n_classes=n_classes)
-net.load_state_dict(torch.load('/home/Rinatw4fsfsef/my_hair_bot/model.pth', map_location='cpu'))
+net.load_state_dict(torch.load('model.pth', map_location='cpu'))
 net.eval()
 print("✅ Модель загружена!")
 

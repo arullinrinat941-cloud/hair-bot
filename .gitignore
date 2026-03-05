@@ -1,0 +1,30 @@
+# Файлы и папки Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Виртуальное окружение
+.venv
+venv/
+env/
+ENV/
+
+# Кэш и логи
+*.log
+*.pot
+*.pyc
+
+# Файлы IDE (PyCharm, VS Code и т.д.)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.temp
+input.jpg
+output.jpg
