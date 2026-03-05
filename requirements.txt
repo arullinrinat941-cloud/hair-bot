@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+torch
+torchvision
+opencv-python-headless
+numpy
+Pillow
